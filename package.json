@@ -2,8 +2,9 @@
   "name": "@pillarwallet/common-formatters",
   "version": "0.0.0",
   "description": "Data formatters for JavaScript/Typescript applications",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build:production": "webpack --mode=production",
     "lint": "eslint .",
     "test:unit": "jest",
     "test": "npm run lint && npm run test:unit"
@@ -28,6 +29,8 @@
     "eslint-plugin-prettier": "2.6.1",
     "jest": "22.4.4",
     "jest-cli": "22.4.4",
-    "prettier": "1.13.7"
+    "prettier": "1.13.7",
+    "webpack": "4.15.1",
+    "webpack-cli": "3.0.8"
   }
 }
