@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Data formatters for JavaScript/Typescript applications",
   "main": "dist/index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build:production": "webpack --mode=production",
     "lint": "eslint .",
