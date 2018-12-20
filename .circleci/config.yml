@@ -76,7 +76,7 @@ workflows:
           filters:
             branches:
               only:
-                  - feature/add-whitesource
+                  - master
       - publish:
           requires:
             - test
