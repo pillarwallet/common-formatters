@@ -73,10 +73,8 @@ workflows:
     jobs:
       - test
       - whitesource:
-          filters:
-            branches:
-              only:
-                  - master
+          requires:
+            - test
       - publish:
           requires:
             - test
