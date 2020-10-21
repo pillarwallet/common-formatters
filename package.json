@@ -17,6 +17,10 @@
   "bugs": {
     "url": "https://github.com/pillarwallet/common-formatters/issues"
   },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
   "homepage": "https://github.com/pillarwallet/common-formatters#readme",
   "devDependencies": {
     "eslint": "5.0.1",
