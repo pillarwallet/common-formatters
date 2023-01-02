@@ -7,3 +7,4 @@ Data formatters for JavaScript/Typescript applications
 ### phone
 
 Returns a phone number without any formatting, prefixed with a plus symbol.
+test
